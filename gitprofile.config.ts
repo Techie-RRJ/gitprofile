@@ -1,35 +1,40 @@
 export const config = {
-  // Your personal info
-  name: "Rhonda Johnson",
-  tagline: "Data Analytic Lab | Experiments in Data Analytics",
-  avatar: "https://media.licdn.com/dms/image/v2/D5603AQEYiOKmR4qRlA/profile-displayphoto-shrink_400_400/B56ZUWO4zKGoAg-/0/1739834759006?e=1764806400&v=beta&t=mHTeesDGX81B_1B-qiCTAdA0y7yLQRc8otjyKLMEip4", // Optional: Replace with a real image URL (e.g., from LinkedIn or upload one later)
+  // Your info
+  name: "[RRJ Techie]",
+  tagline: "[Short bio, e.g., Data Analyst Lab | Python & Pandas for Insights]",
+  avatar: "[Optional: Image URL, e.g., https://your-headshot.jpg — skip for now]",
 
-  // Skills section (add/remove as needed)
+  // Skills (for data analytics — adjust % levels)
   skills: [
     { name: "Python", level: "50%" },
     { name: "Pandas", level: "50%" },
-    { name: "Matplotlib", level: "50%" },
-    { name: "Data Cleaning", level: "25%" }
+    { name: "Matplotlib/Seaborn", level: "60%" },
+    { name: "Data Cleaning/EDA", level: "50%" },
+    { name: "SQL", level: "40%" }  // Add more if you have them
   ],
 
-  // Projects section (link your repos or placeholders)
+  // Projects (link your repos — add Titanic, AI agent)
   projects: [
     {
-      name: "Titanic Survival Analysis",
-      description: "Explored Titanic dataset with pandas: Cleaned data and visualized survival rates by gender.",
-      url: "https://github.com/Techie-RRJ/python-data-analytics/blob/main/day1_titanic.ipynb"
+      name: "Titanic Survival EDA",
+      description: "[Cleaned dataset with pandas, visualized survival rates by gender/age using matplotlib.]",
+      url: "https://github.com/Techie-RRJ/python-data-analytics/blob/main/day1_titanic.ipynb"  // Update if your repo name differs
     },
     {
-      name: "Netflix Movie Trends",
-      description: "Upcoming AI-generated project analyzing movie data.",
-      url: "https://github.com/Techie-RRJ/ai-data-analyst-agent" // Or placeholder
+      name: "AI Data Analyst Agent",
+      description: "[Auto-generates EDA notebooks for portfolio building.]",
+      url: "https://github.com/Techie-RRJ/ai-data-analyst-agent"
+    },
+    {
+      name: "[Netflix Trends]",
+      description: "[Desc, e.g. Analyzed movie data for trends — upcoming AI-generated.]",
+      url: "[Link to repo or Kaggle]"
     }
-    // Add more if you have them
   ],
 
-  // About/Bio section
-  about: "I'm building a portfolio in data analytics through hands-on Python projects. Currently focusing on EDA with pandas and visualizations.",
+  // About/Bio (add your story)
+  about: "[Building data analytics skills through Python projects. Completed Kaggle Titanic EDA and launching AI agent for automated insights.]",
 
-  // Theme (pick one from 37 options in README, e.g., "minimal", "dark", "light")
+  // Theme (pick one: 'minimal', 'dark', 'light', 'gruvbox')
   theme: "minimal"
 };
