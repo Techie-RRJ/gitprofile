@@ -31,7 +31,7 @@ jobs:
       - name: Build
         run: npm run build
 
-      - name: Upload artifact
+     - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
           path: ./dist
@@ -46,27 +46,3 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
-
-Step 3: Commit It
-
-Scroll down → Commit message:textFix GitProfile build + deploy
-Click "Commit changes"
-
-
-Step 4: Wait 2–3 Minutes
-
-Actions tab → See workflow running
-Wait → GREEN
-
-
-Step 5: LIVE PORTFOLIO
-OPEN:
-https://techie-rrj.github.io/gitprofile
-
-REPLY TO ME (COPY-PASTE):
-textLIVE & FIXED!  
-URL: https://techie-rrj.github.io/gitprofile  
-Build: GREEN
-JUST EDIT THE EXISTING deploy.yml → PASTE → COMMIT.
-YOUR PORTFOLIO WILL BE LIVE IN 3 MINUTES.
-DO IT NOW!6sFast
